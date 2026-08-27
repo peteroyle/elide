@@ -1,4 +1,9 @@
 # Change Log
+## 7.2.0
+**Fixes**
+ * [view commit](https://github.com/yahoo/elide/commit/5e116a0ceeddeb595d9f777d8b1e444415651266) Bump org.apache.calcite:calcite-core from 1.41.0 to 1.42.0 (#3418) 
+ * [view commit](https://github.com/yahoo/elide/commit/ac016c777e1daf6aca51dc028c52977344d4f65f) Upgrade to Spring Boot 4 (#3413)
+   
 ## 7.1.17
 **Fixes**
  * [view commit](https://github.com/yahoo/elide/commit/ee41d4aa55676d83a976eaa6bb72c55b5ca90eb3) [maven-release-plugin] prepare for next development iteration 
