@@ -153,7 +153,7 @@ public class ElideExtensionTest {
 
     @Test
     public void testSwaggerApiEndpoint() {
-        RestAssured.when().get("/test-apiDocs/api").then().log().all().statusCode(200);
+        RestAssured.when().get("/test-apiDocs/api").then().log().all().body(containsString("Test Documentation")).statusCode(200);
     }
 
     @Test
